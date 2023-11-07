@@ -39,6 +39,22 @@ private String[] loadAnswers() throws IOException {
         return correctAnswers;
     }
 
+public String getAnswers() {
+    return Answers;
+}
+
+public void setAnswers(String answers) {
+    Answers = answers;
+}
+
+public String[] getCorrectAnswers() {
+    return correctAnswers;
+}
+
+public void setCorrectAnswers(String[] correctAnswers) {
+    this.correctAnswers = correctAnswers;
+}
+
     
 }
 
