@@ -1,0 +1,3 @@
+O((V + E) * log(V))
+O(n)
+It means that as the input size grows, X's performance is significantly better than Y in terms of time or space
