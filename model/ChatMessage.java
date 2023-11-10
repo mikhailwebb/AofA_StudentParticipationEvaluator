@@ -1,23 +1,17 @@
 package model;
 
 public class ChatMessage {
-    private String studentName;
-    private String instructorName;
+    private String senderName;
     private String message;
 
-    public ChatMessage(String studentName, String instructorName, String message) {
-        this.studentName = studentName;
-        this.instructorName = instructorName;
+    public ChatMessage(String senderName, String message) {
+        this.senderName = senderName;
         this.message = message;
     }
 
     //Getters
-    public String getStudentName() {
-        return studentName;
-    }
-    
-    public String getInstructorName() {
-        return instructorName;
+    public String getSenderName() {
+        return senderName;
     }
     
     public String getMessage() {
@@ -25,15 +19,17 @@ public class ChatMessage {
     }
 
     //Setters
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
-    }
-
-    public void setInstructorName(String instructorName) {
-        this.instructorName = instructorName;
+    public void setSenderName(String senderName) {
+        this.senderName = senderName;
     }
 
     public void setMessage(String message) {
         this.message = message;
     }
+    
+    @Override
+    public String toString() {
+        return "Sender: " + senderName + ", Message: " + message;
+    }
+
 }
