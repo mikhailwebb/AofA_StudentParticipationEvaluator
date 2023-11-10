@@ -3,20 +3,18 @@ import java.io.*;
 
 
 public class CorrectAnswers {
- private String Answers="Answers.txt"; //this will be a string of the correct answers
- private String [] correctAnswers; //this will be an array of the correct answers
+ private String answersFilePath; //this will be a string of the correct answers
+  
+ public CorrectAnswers( String answersFilePath){//this will load the correct answers
 
- public CorrectAnswers(){//this will load the correct answers
-      try {
-        this.correctAnswers=loadAnswers();
-    } catch (IOException e) {
-        e.printStackTrace();
-    }
+        this.answersFilePath=answersFilePath;
+   
  }
+
 
  private int countFileLines(String fileName) throws IOException {
      int lines=0;
-     try (BufferedReader reader = new BufferedReader(new FileReader(Answers))){
+     try (BufferedReader reader = new BufferedReader(new FileReader(fileName))){
          while (reader.readLine() != null) {
              lines++;
          }
@@ -25,10 +23,10 @@ public class CorrectAnswers {
      return lines;
  }
 
-private String[] loadAnswers() throws IOException {
-    int numLines = countFileLines(Answers);
+public String[] loadAnswers() throws IOException {
+    int numLines = countFileLines(answersFilePath);
     String[] correctAnswers = new String[numLines];
-    try(BufferedReader reader = new BufferedReader(new FileReader(Answers))) {
+    try(BufferedReader reader = new BufferedReader(new FileReader(answersFilePath))) {
        String line;
        int i=0;
        while ((line = reader.readLine()) != null) {
@@ -39,21 +37,14 @@ private String[] loadAnswers() throws IOException {
         return correctAnswers;
     }
 
-public String getAnswers() {
-    return Answers;
+
+
+public String getAnswersFilePath() {
+    return answersFilePath;
 }
 
-public void setAnswers(String answers) {
-    Answers = answers;
-}
 
-public String[] getCorrectAnswers() {
-    return correctAnswers;
-}
 
-public void setCorrectAnswers(String[] correctAnswers) {
-    this.correctAnswers = correctAnswers;
-}
 
     
 }

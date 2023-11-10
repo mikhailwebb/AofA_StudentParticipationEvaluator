@@ -1,0 +1,28 @@
+[09:00:00] Teacher: Good morning, students. Let's start with a quick quiz. What is the capital of France?
+[09:00:15] Alice: A
+[09:00:18] Bob: B
+[09:00:20] Charlie: C
+[09:00:22] David: D
+[09:00:25] Eve: A
+[09:00:30] Teacher: Thank you for your answers. The correct answer is D. Paris.
+[09:01:00] Teacher: Next question, what is the capital of Italy?
+[09:01:15] Alice: B
+[09:01:18] Bob: A
+[09:01:20] Charlie: D
+[09:01:22] David: C
+[09:01:25] Eve: B
+[09:01:30] Teacher: Thank you for your answers. The correct answer is A. Rome.
+[09:02:00] Teacher: Last question, what is the capital of Spain?
+[09:02:15] Alice: C
+[09:02:18] Bob: D
+[09:02:20] Charlie: A
+[09:02:22] David: B
+[09:02:25] Eve: C
+[09:02:30] Teacher: Thank you for your answers. The correct answer is C. Madrid.
+[09:03:00] Teacher: Now, what is the capital of Germany?
+[09:03:15] Alice: D
+[09:03:18] Bob: C
+[09:03:20] Charlie: B
+[09:03:22] David: A
+[09:03:25] Eve: D
+[09:03:30] Teacher: Thank you for your answers. The correct answer is D. Berlin.

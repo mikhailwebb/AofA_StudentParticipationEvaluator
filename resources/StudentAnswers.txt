@@ -1,0 +1,30 @@
+Participant's answer: DR ARNETT CAMPBELL: BASED ON THE EXERCISE WE JUST DID, WHAT IS THE BIG O EFFICIENCY OF DIJKSTRA�S ALGORITHM IF WE USE A MIN-PRIORITY QUEUE DATA STRUCTURE TO IMPLEMENT IT? | Jaccard similarity score: 0.00
+Participant's answer: BASIL FORD: SIR ITS O ( V + E LOG V ) | Jaccard similarity score: 0.00
+Participant's answer: JENEAL DAWKINS: O(V + E LOG V) | Jaccard similarity score: 0.00
+Participant's answer: PAM ROLLINGS: O(V^2) | Jaccard similarity score: 0.00
+Participant's answer: MARCUS MULLINGS: I THINK ITS O(V + E LOG V) | Jaccard similarity score: 0.00
+Participant's answer: NICKOLAS PLUMMER: QUADRATIC | Jaccard similarity score: 0.00
+Participant's answer: NIOKA BLACK: O(V+ELOGV) | Jaccard similarity score: 0.00
+Participant's answer: MARY BONNER: Θ(V+ELOGV) | Jaccard similarity score: 0.00
+Participant's answer: LARRY BROWN: O(V + E LOG V) | Jaccard similarity score: 0.00
+Participant's answer: GEORGE CLUE: I WOULD SAY O(N), LINEAR | Jaccard similarity score: 0.00
+Participant's answer: DR ARNETT CAMPBELL: WHAT IS THE TIME COMPLEXITY OF A LINEAR SEARCH ALGORITHM? | Jaccard similarity score: 0.00
+Participant's answer: BASIL FORD: O(N) | Jaccard similarity score: 0.20
+Participant's answer: JENEAL DAWKINS: O(LOG(N)) | Jaccard similarity score: 0.00
+Participant's answer: PAM ROLLINGS: O(1) | Jaccard similarity score: 0.00
+Participant's answer: MARCUS MULLINGS: O(N) | Jaccard similarity score: 0.20
+Participant's answer: NICKOLAS PLUMMER: O(N) | Jaccard similarity score: 0.20
+Participant's answer: NIOKA BLACK: O(N) | Jaccard similarity score: 0.20
+Participant's answer: MARY BONNER: O(N) | Jaccard similarity score: 0.20
+Participant's answer: LARRY BROWN: O(N^2) | Jaccard similarity score: 0.00
+Participant's answer: GEORGE CLUE: I DON'T KNOW. | Jaccard similarity score: 0.00
+Participant's answer: DR ARNETT CAMPBELL: WHAT DOES IT MEAN WHEN WE SAY THAT AN ALGORITHM X IS ASYMPTOTICALLY MORE EFFICIENT THAN Y? | Jaccard similarity score: 0.00
+Participant's answer: BASIL FORD: MEANS THAT AS THE INPUT SIZE GROWS, X'S PERFORMANCE IS SIGNIFICANTLY BETTER THAN Y IN TERMS OF TIME OR SPACE | Jaccard similarity score: 0.00
+Participant's answer: JENEAL DAWKINS: IT MEANS THAT FOR LARGE INPUT SIZES, ALGORITHM X HAS A BETTER TIME OR SPACE COMPLEXITY COMPARED TO ALGORITHM Y | Jaccard similarity score: 0.00
+Participant's answer: PAM ROLLINGS: X OUTPERFORMS ALGORITHM Y WHEN THE INPUT SIZE BECOMES VERY LARGE | Jaccard similarity score: 0.00
+Participant's answer: MARCUS MULLINGS: I JUST CAME TO CLASS, NOT SURE WHAT'S GOING ON TBH. | Jaccard similarity score: 0.00
+Participant's answer: NICKOLAS PLUMMER: I'M JUST LEAVING A RANDOM MESSAGE TO GET MY PARTICIPATION GRADE. | Jaccard similarity score: 0.00
+Participant's answer: NIOKA BLACK: SAME. I'M JUST LEAVING A RANDOM MESSAGE TO GET MY PARTICIPATION GRADE. | Jaccard similarity score: 0.00
+Participant's answer: MARY BONNER: I DON'T KNOW. | Jaccard similarity score: 0.00
+Participant's answer: LARRY BROWN: I DON'T UNDERSTAND THE QUESTION. | Jaccard similarity score: 0.00
+Participant's answer: GEORGE CLUE: IT MEANS THAT ALGORITHM X IS ALWAYS FASTER THAN Y, REGARDLESS OF THE INPUT SIZE. | Jaccard similarity score: 0.00
