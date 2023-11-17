@@ -2,7 +2,7 @@ package model;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,48 +20,45 @@ public class MainGUI extends JFrame {
 
     public MainGUI() {
         // Frame settings
-        setTitle("Grade Calculator");
+        setTitle("STUDENT PARTICIPATION EVALUATOR");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new BorderLayout());
+        setLayout(new BorderLayout(10,10));
 
         // Text area for displaying results
         textArea = new JTextArea();
         textArea.setEditable(false);
+        textArea.setFont(new Font("SansSerif", Font.PLAIN, 14));
         add(new JScrollPane(textArea), BorderLayout.CENTER);
 
         // Panel for buttons
-        JPanel buttonPanel = new JPanel();
+       JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
 
         // Load Chat Log Button
-        JButton loadChatLogButton = new JButton("Load Chat Log");
-        loadChatLogButton.addActionListener(e -> loadChatLog());
-        buttonPanel.add(loadChatLogButton);
-
+        addButton("Load Chat Log", buttonPanel, e -> loadChatLog(), "Load the chat log file");
         // Load Questions Button
-        JButton loadQuestionsButton = new JButton("Load Questions");
-        loadQuestionsButton.addActionListener(e -> loadQuestions());
-        buttonPanel.add(loadQuestionsButton);
-
+        addButton("Load Answers", buttonPanel, e -> loadQuestions(), "Load the questions file");
         // Display Grades Button
-        JButton displayGradesButton = new JButton("Display Grades");
-        displayGradesButton.addActionListener(e -> displayGrades());
-        buttonPanel.add(displayGradesButton);
+        addButton("Display Grades", buttonPanel, e -> displayGrades(),"Calculate and display grades"); 
+
+        // Display the Clear button
+        addButton("Clear", buttonPanel, e -> textArea.setText(""), "Clear the text area");
+       
 
         add(buttonPanel, BorderLayout.SOUTH);
-
         // Display the frame
-        setVisible(true);
-        JButton clearButton = new JButton("Clear");
-        clearButton.addActionListener(e -> textArea.setText(""));
-        buttonPanel.add(clearButton);
-
-        add(buttonPanel, BorderLayout.SOUTH);
-
         setVisible(true);
     }
     
-    
+    private void addButton(String text, JPanel panel, ActionListener listener, String toolTip) {
+        JButton button = new JButton(text);
+        button.addActionListener(listener);
+        button.setToolTipText(toolTip);
+        button.setFont(new Font("SansSerif", Font.BOLD, 12));
+        button.setBackground(new Color(230, 230, 250));
+        button.setForeground(Color.DARK_GRAY);
+        panel.add(button);
+    }
 
     private void loadChatLog() {
         JFileChooser fileChooser = new JFileChooser();
@@ -91,7 +88,9 @@ private void displayGrades() {
         return;
     }
 
-    try {PrintWriter writer = new PrintWriter(new FileWriter(gradesFilePath, true));
+    try {
+        
+        PrintWriter writer = new PrintWriter(new FileWriter(gradesFilePath, true));
         {
         CorrectAnswers correctAnswers = new CorrectAnswers(questionsPath);
         String[] correctAnswerList = correctAnswers.loadAnswers();
@@ -108,11 +107,12 @@ private void displayGrades() {
             Set<String> participantAnswerTokens = new HashSet<>(Arrays.asList(answer.toUpperCase().split("\\s+")));
             double similarity = JaccardSimilarity.calculateJaccardSimilarity(correctAnswerTokens, participantAnswerTokens);
             int grade = (int) Math.round(similarity * 15); // Round grade to nearest whole number
-            String gradeOutput = String.format("%s | Jaccard similarity score: %.2f | Numerical grade: %d%n", name, similarity, grade);
+            String gradeOutput = String.format("%s | Jaccard similarity score: %.2f | Grade: %d%n", name, similarity, grade);
             writer.print(gradeOutput);
-            textArea.append(String.format("%s | Numerical grade: %d%n", name, grade));
+            textArea.append(String.format("%s | Grade: %d%n", name, grade));
         }
         JOptionPane.showMessageDialog(this, "Grades calculated and written to file.", "Success", JOptionPane.INFORMATION_MESSAGE);
+        writer.close();
     }} catch (IOException e) {
         JOptionPane.showMessageDialog(this, "Error processing files: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
     }
