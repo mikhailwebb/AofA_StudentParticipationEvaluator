@@ -58,3 +58,95 @@ NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
 MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
 LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
 GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.00 | Grade: 0
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.00 | Grade: 0
+NICKOLAS PLUMMER | Jaccard similarity score: 0.00 | Grade: 0
+NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
+MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.33 | Grade: 5
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.33 | Grade: 5
+NICKOLAS PLUMMER | Jaccard similarity score: 0.33 | Grade: 5
+NIOKA BLACK | Jaccard similarity score: 0.33 | Grade: 5
+MARY BONNER | Jaccard similarity score: 0.33 | Grade: 5
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.00 | Grade: 0
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.00 | Grade: 0
+NICKOLAS PLUMMER | Jaccard similarity score: 0.00 | Grade: 0
+NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
+MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.00 | Grade: 0
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.00 | Grade: 0
+NICKOLAS PLUMMER | Jaccard similarity score: 0.00 | Grade: 0
+NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
+MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.33 | Grade: 5
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.33 | Grade: 5
+NICKOLAS PLUMMER | Jaccard similarity score: 0.33 | Grade: 5
+NIOKA BLACK | Jaccard similarity score: 0.33 | Grade: 5
+MARY BONNER | Jaccard similarity score: 0.33 | Grade: 5
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.00 | Grade: 0
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.00 | Grade: 0
+NICKOLAS PLUMMER | Jaccard similarity score: 0.00 | Grade: 0
+NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
+MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.00 | Grade: 0
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.00 | Grade: 0
+NICKOLAS PLUMMER | Jaccard similarity score: 0.00 | Grade: 0
+NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
+MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.33 | Grade: 5
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.33 | Grade: 5
+NICKOLAS PLUMMER | Jaccard similarity score: 0.33 | Grade: 5
+NIOKA BLACK | Jaccard similarity score: 0.33 | Grade: 5
+MARY BONNER | Jaccard similarity score: 0.33 | Grade: 5
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0
+DR ARNETT CAMPBELL | Jaccard similarity score: 0.00 | Grade: 0
+BASIL FORD | Jaccard similarity score: 0.00 | Grade: 0
+JENEAL DAWKINS | Jaccard similarity score: 0.00 | Grade: 0
+PAM ROLLINGS | Jaccard similarity score: 0.00 | Grade: 0
+MARCUS MULLINGS | Jaccard similarity score: 0.00 | Grade: 0
+NICKOLAS PLUMMER | Jaccard similarity score: 0.00 | Grade: 0
+NIOKA BLACK | Jaccard similarity score: 0.00 | Grade: 0
+MARY BONNER | Jaccard similarity score: 0.00 | Grade: 0
+LARRY BROWN | Jaccard similarity score: 0.00 | Grade: 0
+GEORGE CLUE | Jaccard similarity score: 0.00 | Grade: 0

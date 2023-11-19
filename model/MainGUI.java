@@ -83,6 +83,9 @@ public class MainGUI extends JFrame {
    
 
 private void displayGrades() {
+    boolean isQuestionActive = false;
+    String currentQuestion = "";
+    
     if (chatLogPath.isEmpty() || questionsPath.isEmpty()) {
         JOptionPane.showMessageDialog(this, "Please load both chat log and questions files.", "Error", JOptionPane.ERROR_MESSAGE);
         return;
@@ -98,12 +101,29 @@ private void displayGrades() {
 
         String[] chatLogEntries = new CorrectAnswers(chatLogPath).loadAnswers(); // Reusing loadAnswers method
         for (String entry : chatLogEntries) {
-            String[] parts = entry.split(":", 2); // Assuming format: Name: Answer
-            if (parts.length < 2) {
-                continue; // Skip if format is incorrect
+            if (entry.matches("Question \\d+:")) { // Regex pattern for "Question [Number]:"
+                isQuestionActive = true;
+                currentQuestion = entry.split(":")[0].trim(); // Capture the question number
+                continue;
             }
+            if (entry.equals("---")) { // Assuming '---' marks the end of a question
+                isQuestionActive = false;
+                continue;
+            }
+
+            String[] parts = entry.split(":", 2); // Assuming format: Name: Answer
+            // if (parts.length < 2) {
+            //     continue; // Skip if format is incorrect
+            // }
+            if (isQuestionActive) {
+                 parts = entry.split(":", 2); // Assuming format: Name: Answer
+                if (parts.length < 2) {
+                    continue; // Skip if format is incorrect
+                }}
             String name = parts[0].trim();
             String answer = parts[1].trim();
+
+            
             Set<String> participantAnswerTokens = new HashSet<>(Arrays.asList(answer.toUpperCase().split("\\s+")));
             double similarity = JaccardSimilarity.calculateJaccardSimilarity(correctAnswerTokens, participantAnswerTokens);
             int grade = (int) Math.round(similarity * 15); // Round grade to nearest whole number

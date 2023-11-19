@@ -1,4 +1,5 @@
 Dr Arnett Campbell: Based on the exercise we just did, what is the Big O efficiency of Dijkstra’s algorithm if we use a min-priority queue data structure to implement it?
+Dr Arnett Campbell:QUESTION 1
 Basil Ford: Sir its O ( V + E log V )
 Jeneal Dawkins: O(V + E log V)
 Pam Rollings: O(v^2)
@@ -8,6 +9,7 @@ Nioka Black: O(V+ELogV)
 Mary Bonner: Θ(V+ELogV)
 Larry Brown: O(V + E log V)
 George Clue: I would say O(n), linear
+Dr Arnett Campbell:End
 Dr Arnett Campbell: What is the time complexity of a linear search algorithm?
 Basil Ford: O(n)
 Jeneal Dawkins: O(log(n))
